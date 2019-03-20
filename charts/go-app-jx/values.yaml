@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.55.253.76:5000/macox/go-app-jx
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: go-app-jx
